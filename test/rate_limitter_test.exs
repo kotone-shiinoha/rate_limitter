@@ -6,6 +6,7 @@ defmodule RateLimitterTest do
     assert RateLimitter.hello() == :world
   end
 end
+
 defmodule Test do
   import RateLimitter.Agent
   alias RateLimitter.ETS, as: Blacklist

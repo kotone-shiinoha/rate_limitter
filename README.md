@@ -6,7 +6,6 @@
     - on_request(key)
       looks up whether the ip is blacklisted, and black lists the ip if it reaches the certain limit
       returns :ok if the ip is considered not malitious otherwise returns blocked
-    - 
   - Agent
     - increment(key)
       adds a timestamp to a key within a agent and deletes any timestamp that has passed a certain limit
