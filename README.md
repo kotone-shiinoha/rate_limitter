@@ -2,9 +2,8 @@
 
 ## Description
 ### interface
-  - *
-    - on_request(key)
-      looks up whether the ip is blacklisted, and black lists the ip if it reaches the certain limit
+   - on_request(key)
+      looks up whether the ip is blacklisted, and black lists the ip if it reaches the limit set by the user
       returns :ok if the ip is considered not malitious otherwise returns blocked
   - Agent
     - increment(key)
