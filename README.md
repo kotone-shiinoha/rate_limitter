@@ -2,11 +2,11 @@
 
 ## Description
 ### interface
-   - on_request(key)
+   - on_request(key)  
       looks up whether the ip is blacklisted, and black lists the ip if it reaches the limit set by the user
       returns :ok if the ip is considered not malitious otherwise returns blocked
-  - Agent
-    - increment(key)
+  - Agent  
+    - increment(key)  
       adds a timestamp to a key within a agent and deletes any timestamp that has passed a certain limit
     ```
     @implementation
